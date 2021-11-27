@@ -1,0 +1,168 @@
+* {
+  font-family: "Arvo", serif;
+  color: rgb(69, 69, 114);
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("RestrauntLogo.jpg");
+  background-repeat: no-repeat;
+  width: 98%;
+}
+.header {
+  display: flex;
+  margin-top: 3px;
+  justify-content: space-between;
+  /* position: sticky; */
+}
+
+.left {
+  width: 200px;
+  height: 72px;
+  /* border: 2px solid rgb(155, 91, 91); */
+  position: relative;
+  padding-top: 10px;
+}
+.mid {
+  /* border: 2px solid red; */
+  width: 500px;
+  margin-top: 8px;
+}
+
+.right {
+  /* border: 2px solid red; */
+  margin-top: 4px;
+}
+img {
+  display: inline-block;
+  height: 56px;
+  border-radius: 40px;
+  border: 1px solid #eef3ee;
+  filter: invert(100%);
+  position: absolute;
+  left: 19px;
+}
+
+.left div {
+  position: relative;
+  padding: 5px 0px 0px 80px;
+  font-size: 25px;
+  font-size: 25px;
+  line-height: 26px;
+  font-weight: bolder;
+  /* color: rgb(69, 69, 114); */
+  /* animation: blinker 1s linear infinite; */
+}
+.myNav {
+  display: flex;
+  margin-top: 10px;
+}
+.myNav li {
+  display: inline-block;
+}
+.myNav li a {
+  text-decoration: none;
+  padding: 40px 28px;
+  font-size: 19px;
+  font-weight: bold;
+  margin-right: -7px;
+}
+
+.myNav li a:hover,
+a.active {
+  color: rgb(5, 227, 227);
+  text-decoration: underline;
+}
+
+.buttons {
+  margin-top: 10px;
+  background-color: rgb(231, 247, 13);
+  text-decoration-color: darkturquoise;
+  padding: 3px 6px 0px 9px;
+  border: 1px solid grey;
+  border-radius: 28px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.buttons:hover {
+  background-color: cornsilk;
+}
+
+.content {
+  margin: 133px 26px;
+}
+.content h1 {
+  letter-spacing: 2px;
+  font-size: 55px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.content span {
+  color: rgb(94, 54, 3);
+  padding-left: 271px;
+}
+
+.para {
+  line-height: 35px;
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+.content Button {
+  padding-top: 7px;
+  display: block;
+  margin: 0px -4px;
+}
+
+.joinButton {
+  padding: 4px;
+  width: 226px;
+  height: 49px;
+  color: coral;
+  border: none;
+  border-radius: 21px;
+  letter-spacing: 3.2px;
+  background-color: rgb(231, 247, 13);
+  font-size: 22px;
+  cursor: pointer;
+}
+.joinButton a {
+  text-decoration: none;
+  text-decoration-color: darkturquoise;
+}
+
+.joinButton:hover {
+  background-color: cornsilk;
+}
+
+.container {
+  border: 2px solid white;
+  display: inline-block;
+  /* flex-direction: row; */
+  margin: -297px 705px -2px 1073px;
+  /* padding: 75px; */
+  width: 24%;
+  height: 343px;
+  border-radius: 11px;
+}
+
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 302px;
+  padding: 2px;
+  border: 1px solid black;
+  margin: 11px auto;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container button {
+  display: block;
+  width: 302px;
+  margin: 20px auto;
+}
