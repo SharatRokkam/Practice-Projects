@@ -8,6 +8,7 @@ body {
   background: url("RestrauntLogo.jpg");
   background-repeat: no-repeat;
   width: 98%;
+  overflow: hidden;
 }
 .header {
   display: flex;
